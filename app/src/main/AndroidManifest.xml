@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.application">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".Activity02">
+        </activity>
+        <activity android:name=".Activity03">
+        </activity>
+        <activity android:name=".Activity04">
+        </activity>
+        <activity android:name=".Activity05">
+        </activity>
+        <activity android:name=".Activity05_2">
+        </activity>
+        <activity android:name=".Activity07">
+        </activity>
+        <activity android:name=".Activity08">
+        </activity>
+
+
+
+
+
+        <activity android:name=".TestActivity">
+
+        </activity>
+        <activity android:name=".Activity11">
+        </activity>
+        <activity android:name=".Activity12">
+
+        </activity>
+        <activity android:name=".Activity12_1">
+
+        </activity>
+        <activity android:name=".Activity13">
+
+        </activity>
+        <activity android:name=".Activity14">
+
+        </activity>
+        <activity android:name=".Activity09_2">
+        </activity>
+        <activity android:name=".Activity09_1">
+
+        </activity>
+        <activity android:name=".Activity15">
+
+        </activity>
+        <activity android:name=".Activity13_2">
+        </activity>
+        <activity android:name=".Activity13_3">
+        </activity>
+        <activity android:name=".Activity13_4">
+
+        </activity>
+        <activity android:name=".Activity15_2">
+        </activity>
+        <activity android:name=".Activity23_3">
+
+        </activity>
+        <activity android:name=".Activity27">
+        </activity>
+        <activity android:name=".Activity27_2">
+
+        </activity>
+        <activity android:name=".Activity26">
+
+        </activity>
+        <activity android:name=".Activity23">
+        </activity>
+        <activity android:name=".Activity22">
+        </activity>
+        <activity android:name=".Activity21" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity19" android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Activity19_2" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity19_3" android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Activity20" android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Activity24" android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Activity24_1" android:theme="@style/AppTheme.NoActionBar">
+
+        </activity><activity android:name=".GetGupiaoActivity" android:theme="@style/AppTheme.NoActionBar">
+
+    </activity>
+        <activity android:name=".Activity24_2" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Activity24_2_2" android:theme="@style/AppTheme.NoActionBar" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".CommitActivity" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_boom" android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".ActivitySdCardListFiles" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ActivitySQLite01" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity33" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity35_1" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity35" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity35_2" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity36" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ActivityFromTeatherSQLite_Result" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ActivityGetTeacher_SQLite" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity34" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity_TelephonyManager" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity_SMS" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity_Vibrator" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ActivityVideo" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity_MediaRecorder" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activityupload" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Getupimg" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ActivityRecordervideo" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Activity_openvedio" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*" android:scheme="file"/>
+                <data android:mimeType="image/*" android:scheme="file"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmActivity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".AlarmActivity2" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <receiver android:name=".SmsReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+
+</manifest>
