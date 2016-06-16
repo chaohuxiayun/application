@@ -42,11 +42,11 @@ public class GetGupiaoActivity extends Activity{
                 .build();
         GetGuPiaoInterface gupiao  = retrofit.create(GetGuPiaoInterface.class);
         Call<GuPiao> c = gupiao.getgupiao("ccf924cd1c2bd7e36b3f4aa01f2457c9",ed1.getText().toString());
-       /* c.enqueue(new Callback<GuPiao>() {
+       c.enqueue(new Callback<GuPiao>() {
             @Override
             public void onResponse(Call<GuPiao> call, Response<GuPiao> response) {
                 GuPiao g = response.body();
-                tv.setText(g.getStockinfo().getCurrentPrice()+""+g.getStockinfo().getClosingPrice());
+                tv.setText("");
 
             }
 
@@ -54,7 +54,7 @@ public class GetGupiaoActivity extends Activity{
             public void onFailure(Call<GuPiao> call, Throwable t) {
 
             }
-        });*/
+        });
         c.enqueue(new Callback<GuPiao>() {
             @Override
             public void onResponse(Call<GuPiao> call, Response<GuPiao> response) {
