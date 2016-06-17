@@ -34,7 +34,7 @@ import java.util.List;
  */
 public class Activity_Map extends Activity {
 
-    MapView mMapView = null;
+    /*MapView mMapView = null;
     BaiduMap mBaiduMap;
     LocationManager lm;
     LatLng point;
@@ -133,21 +133,20 @@ public class Activity_Map extends Activity {
         OverlayOptions option = new MarkerOptions()
                 .position(p)
                 .icon(bitmap);
-        Log.e("caonima",option.toString());
 //在地图上添加Marker，并显示
         mBaiduMap.clear();
         marker = (Marker) (mBaiduMap.addOverlay(option));
         mBaiduMap.addOverlay(option);
 
-        if (list.size()>2){
+       *//* if (list.size()>2){
             OverlayOptions ooPolyline = new PolylineOptions().width(15).color(0xAAFF0000).points(list);
             mBaiduMap.addOverlay(ooPolyline);
-        }
+        }*//*
 
 //添加到地图
        ;
 
 
-    }
+    }*/
 }
 
